@@ -27,3 +27,79 @@ With cutting-edge AI models, GENEYE offers **real-time detection**, **personaliz
 The project follows a **modular and scalable design**:
 
 
+---
+
+## 🤖 AI & NLP Workflow
+
+1. **Text Extraction:** The content script identifies posts and extracts their text in real-time.
+2. **Preprocessing:** Text is cleaned (stopwords, emojis, and noise removed) before AI processing.
+3. **AI Scoring:**  
+   - **LLMs (Llama/GPT)** via OpenRouter API assign toxicity, cynicism, and sentiment scores.  
+   - **NLP Classifiers** (e.g., BERT, DistilBERT) handle spam and hate speech detection.  
+4. **Rule-Based Filtering:** Posts exceeding configured thresholds are flagged for removal or blur.
+5. **User Feedback Integration:** User input improves thresholds dynamically for smarter filtering.
+6. **Dashboard Analytics:** A breakdown of filtered content by category helps users understand trends.
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+| Category             | Tools & Technologies                            |
+|----------------------|-------------------------------------------------|
+| **Browser Extension**| Chrome Extensions (Manifest v3), JavaScript, HTML, CSS |
+| **Frontend UI**      | Tailwind CSS, Vanilla JS                        |
+| **AI/NLP Models**    | Llama, GPT, BERT-based toxicity models          |
+| **APIs**             | OpenRouter API for LLM-based text analysis     |
+| **Visualization**    | Chart.js, D3.js                                |
+| **Storage**          | Chrome Storage API (local, sync)               |
+| **Version Control**  | GitHub                                          |
+
+---
+
+## 🔄 Workflow Overview
+
+1. **User Opens Social Media:** GENEYE’s content script scans the page dynamically.
+2. **Text Sent for AI Analysis:** Posts are scored for sentiment, toxicity, cynicism, and spam probability.
+3. **Real-Time Filtering:** Posts crossing thresholds are blurred, hidden, or replaced.
+4. **User Adjusts Filters:** Via the extension’s dashboard, thresholds and categories can be fine-tuned.
+5. **Feedback Improves AI:** User input helps refine scoring and build a personalized filtering system.
+
+---
+
+## 🌟 Future Enhancements
+
+- 🌐 Multi-platform support for Facebook, LinkedIn, Reddit.
+- 📲 Mobile browser support.
+- ⚡ Hybrid AI: Combine lightweight offline models with API-based LLMs to optimize performance.
+- 🔔 Real-time notifications for harmful or trending content.
+- 🧠 Advanced analytics with sentiment heatmaps.
+
+---
+
+## 👨‍💻 Creators
+
+| Name                     | Role                          |
+|--------------------------|------------------------------|
+| **KARTIK PANDEY**        | Lead Developer & Designer    |
+| **PRABHU DAYAL VAISHNAV**| AI/NLP Developer & Architect |
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use, modify, and contribute.
+
+---
+
+## 🙌 Contributing
+
+We welcome contributions!  
+- Fork the repo  
+- Create a new branch (`feature/your-feature`)  
+- Commit and push your changes  
+- Open a pull request  
+
+Together, let’s make the internet a **healthier, more positive space!**
+
+---
+
