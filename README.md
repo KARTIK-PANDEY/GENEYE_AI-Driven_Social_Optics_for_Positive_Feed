@@ -28,6 +28,49 @@ The project follows a **modular and scalable design**:
 
 GENEYE follows a **modular, MV3 (Manifest V3)** browser-extension architecture with clear separation of UI, page integration, and AI decisioning.
 
+### 1) High-Level Components
+
+- **Popup UI (Frontend)**  
+  - Settings (API key, thresholds, category toggles)  
+  - Quick on/off control, analytics snapshot  
+  - Persists preferences in `chrome.storage`
+
+- **Content Script (Page Layer)**  
+  - Parses DOM to extract post text  
+  - Sends analysis requests  
+  - Applies actions (hide/blur/replace + rationale tooltip)
+
+- **Service Worker (Background)**  
+  - Orchestrates AI/NLP calls  
+  - Normalizes model responses into category scores  
+  - Enforces rules & returns decisions to content script
+
+- **AI/NLP Engine (Hybrid)**  
+  - **LLM Scoring (via API)**: Rich classification (toxicity/cynicism/hate/spam)  
+  - **Local Models (optional)**: Lightweight toxicity heuristic for quick triage  
+  - **Rule Layer**: Thresholding, overrides, user feedback adaptation
+
+- **Storage**  
+  - `chrome.storage` for settings, thresholds, flags  
+  - Optional local cache for recent post hashes & scores
+
+### 2) Data Flow Diagram (Mermaid)
+
+```mermaid
+flowchart LR
+  A[DOM on Social Site] --> B[Content Script: extract text]
+  B --> C{Local Heuristic?}
+  C -- Low risk --> D[Apply UI directly]
+  C -- Borderline/High --> E[Service Worker]
+  E --> F[AI/NLP Engine]
+  F --> E
+  E --> G{Decision}
+  G -- Hide/Blur --> H[Content Script UI: shield/blur]
+  G -- Allow --> D
+  I[Popup UI] -->|Update thresholds / toggles| E
+  I -->|Save settings| J[chrome.storage]
+  E -->|Read/Write| J
+
 
 ---
 
@@ -104,6 +147,7 @@ We welcome contributions!
 Together, let’s make the internet a **healthier, more positive space!**
 
 ---
+
 
 
 
