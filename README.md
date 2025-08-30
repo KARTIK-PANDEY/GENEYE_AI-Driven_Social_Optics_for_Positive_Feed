@@ -91,7 +91,30 @@ flowchart LR
   ServiceWorker->>chrome.storage: persist settings
 
  ### 4) Folder Structure (Reference)
- 
+
+ geneye/
+├─ src/
+│  ├─ manifest.json          # MV3 config
+│  ├─ popup/
+│  │  ├─ index.html
+│  │  ├─ popup.js
+│  │  └─ popup.css
+│  ├─ content/
+│  │  ├─ content.js          # DOM parsing + UI actions
+│  │  └─ overlay.css
+│  ├─ background/
+│  │  └─ service-worker.js   # AI orchestration, rules, storage
+│  ├─ ai/
+│  │  ├─ prompt-templates.js # LLM prompts & schema guards
+│  │  ├─ router.js           # Model routing (LLM vs local)
+│  │  └─ heuristics.js       # Lightweight local checks
+│  └─ utils/
+│     ├─ storage.js          # chrome.storage helpers
+│     └─ constants.js        # categories, defaults, schemas
+└─ assets/
+   ├─ icons/
+   └─ branding/
+
 
 ---
 
@@ -168,6 +191,7 @@ We welcome contributions!
 Together, let’s make the internet a **healthier, more positive space!**
 
 ---
+
 
 
 
