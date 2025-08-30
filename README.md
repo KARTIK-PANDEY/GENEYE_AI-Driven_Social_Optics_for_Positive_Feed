@@ -68,7 +68,27 @@ flowchart LR
   G -- Allow --> D
   I[Popup UI] -->|Update thresholds / toggles| E
   I -->|Save settings| J[chrome.storage]
-  E -->|Read/Write| J
+  E -->|Read/Write|
+
+  ### 3) Request–Response Sequence
+  sequenceDiagram
+  participant User
+  participant Page/DOM
+  participant ContentScript
+  participant ServiceWorker
+  participant AI/NLP
+
+  User->>Page/DOM: Scrolls feed
+  ContentScript->>Page/DOM: Find posts & extract text
+  ContentScript->>ServiceWorker: analyze(text, context)
+  ServiceWorker->>AI/NLP: score(text) {toxicity,cynicism,hate,spam}
+  AI/NLP-->>ServiceWorker: scores + rationale
+  ServiceWorker->>ServiceWorker: apply thresholds/rules
+  ServiceWorker-->>ContentScript: decision {hide/blur/allow, reason}
+  ContentScript->>Page/DOM: apply overlay/blur/tooltip
+  User->>Popup UI: adjusts sliders/toggles
+  Popup UI->>ServiceWorker: update config
+  ServiceWorker->>chrome.storage: persist settings
 
 
 ---
@@ -146,6 +166,7 @@ We welcome contributions!
 Together, let’s make the internet a **healthier, more positive space!**
 
 ---
+
 
 
 
