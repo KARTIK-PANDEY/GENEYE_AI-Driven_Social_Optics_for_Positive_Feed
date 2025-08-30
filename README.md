@@ -90,6 +90,8 @@ flowchart LR
   Popup UI->>ServiceWorker: update config
   ServiceWorker->>chrome.storage: persist settings
 
+ ### 4) Folder Structure (Reference)
+ 
 
 ---
 
@@ -166,6 +168,7 @@ We welcome contributions!
 Together, let’s make the internet a **healthier, more positive space!**
 
 ---
+
 
 
 
