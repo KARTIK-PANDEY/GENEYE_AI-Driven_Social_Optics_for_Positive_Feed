@@ -1,6 +1,6 @@
 # 🌐 GENEYE: AI-Driven Social Optics for Positive Feed
 
-> **GENEYE** is a next-generation Chrome extension that empowers users to curate a **positive and mindful social media experience** by leveraging **AI and NLP-driven content filtering**. It analyzes posts in real-time, detects negativity, hate speech, toxicity, and spam, and helps users customize their feeds for a healthier digital environment.
+**GENEYE** is a next-generation Chrome extension that empowers users to curate a **positive and mindful social media experience** by leveraging **AI and NLP-driven content filtering**. It analyzes posts in real-time, detects negativity, hate speech, toxicity, and spam, and helps users customize their feeds for a healthier digital environment.
 
 ---
 
@@ -25,4 +25,5 @@ With cutting-edge AI models, GENEYE offers **real-time detection**, **personaliz
 ## 🏗️ System Architecture
 
 The project follows a **modular and scalable design**:
+
 
