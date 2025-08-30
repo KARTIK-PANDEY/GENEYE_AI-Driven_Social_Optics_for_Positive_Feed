@@ -25,6 +25,7 @@ With cutting-edge AI models, GENEYE offers **real-time detection**, **personaliz
 ## 🏗️ System Architecture
 
 The project follows a **modular and scalable design**:
+
 GENEYE follows a **modular, MV3 (Manifest V3)** browser-extension architecture with clear separation of UI, page integration, and AI decisioning.
 
 
@@ -103,5 +104,6 @@ We welcome contributions!
 Together, let’s make the internet a **healthier, more positive space!**
 
 ---
+
 
 
