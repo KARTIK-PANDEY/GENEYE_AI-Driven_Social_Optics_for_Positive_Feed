@@ -56,7 +56,6 @@ GENEYE follows a **modular, MV3 (Manifest V3)** browser-extension architecture w
 
 ### 2) Data Flow Diagram (Mermaid)
 
-```mermaid
 flowchart LR
   A[DOM on Social Site] --> B[Content Script: extract text]
   B --> C{Local Heuristic?}
@@ -147,6 +146,7 @@ We welcome contributions!
 Together, let’s make the internet a **healthier, more positive space!**
 
 ---
+
 
 
 
