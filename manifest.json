@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "GENEYE:-Social_Optics",
+  "version": "1.2",
+  "description": "AI-powered content filter that makes X.com more positive by detecting and filtering out cynical, sarcastic, and negative posts",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*.x.com/*",
+    "https://openrouter.ai/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png",
+      "256": "images/icon256.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.x.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+} 
