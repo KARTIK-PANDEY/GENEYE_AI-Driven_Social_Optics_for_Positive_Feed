@@ -171,7 +171,7 @@ flowchart LR
 
 ---
 
-## 👨‍💻 Creators
+## 👨‍💻 Creator
 
 | Name                     |
 |--------------------------|
@@ -203,6 +203,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 **Thank you**
 
 ---
+
 
 
 
