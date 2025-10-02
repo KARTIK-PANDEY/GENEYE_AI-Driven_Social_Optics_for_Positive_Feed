@@ -6,9 +6,14 @@
 
 ## 🚀 Why GENEYE?
 
-Social media can be overwhelming with negativity, spam, and toxic content. GENEYE steps in as your **AI-powered digital lens** — filtering harmful or irrelevant content while promoting a cleaner and more meaningful feed.  
-With cutting-edge AI models, GENEYE offers **real-time detection**, **personalization**, and **privacy-first filtering** to help users focus on what truly matters.
-We Provide Various Filters Options, Including Political Post Filter, Sarcastic Post Filter, Rumours or False Claiming Post and Lot more other Filters to Tackle the Negativity on Internet and Social Media Platforms Effectively. 
+Social media is often filled with negativity, spam, and toxic content.  
+GENEYE acts as your **AI-powered digital lens** — filtering harmful or irrelevant content while amplifying meaningful conversations.  
+
+Key highlights:  
+- **Real-time AI/NLP detection**  
+- **Customizable filtering categories** (e.g., political, sarcastic, rumours/false claims)  
+- **Privacy-first design** (no external data storage)  
+- **Personalized feed shaping** through adaptive learning  
 
 ---
 
@@ -198,6 +203,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 **Thank you**
 
 ---
+
 
 
 
