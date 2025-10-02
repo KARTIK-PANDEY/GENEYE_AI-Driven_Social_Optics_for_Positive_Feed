@@ -168,9 +168,9 @@ flowchart LR
 
 ## 👨‍💻 Creators
 
-| Name                     | Role                          |
-|--------------------------|------------------------------|
-| **KARTIK PANDEY**        | Lead Developer & Designer    |
+| Name                     |
+|--------------------------|
+| **KARTIK PANDEY**        |
 
 ---
 
@@ -196,6 +196,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 Thank you
 
 ---
+
 
 
 
