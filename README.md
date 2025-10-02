@@ -36,7 +36,7 @@ GENEYE follows a **modular, MV3 (Manifest V3)** browser-extension architecture w
 
 Here’s the **detailed architecture diagram**:
 
-![GENEYE Architecture](/mnt/data/Geneye_Methodology_Mermaid_Diagram.png)
+![GENEYE Architecture](/Geneye_Methodology_Mermaid_Diagram.png)
 
 
 ### 1) High-Level Components
@@ -208,6 +208,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 **Thank you**
 
 ---
+
 
 
 
