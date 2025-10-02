@@ -171,7 +171,6 @@ flowchart LR
 | Name                     | Role                          |
 |--------------------------|------------------------------|
 | **KARTIK PANDEY**        | Lead Developer & Designer    |
-| **PRABHU DAYAL VAISHNAV**| AI/NLP Developer & Architect |
 
 ---
 
@@ -197,6 +196,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 Thank you
 
 ---
+
 
 
 
