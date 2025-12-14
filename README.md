@@ -26,6 +26,8 @@ Key highlights:
 - 🖥️ **Cross-Platform Vision**: Built for Twitter/X first, with plans to expand to LinkedIn, Facebook, and Reddit.
 - 🎨 **Clean & Intuitive Design**: A polished UI for seamless interaction.
 
+## 🧐 Main Focus on:- 
+
 - Real-time AI Analysis: Analyzes posts using Llama 3.3 70B via OpenRouter API.
 - Multi-dimensional Classification: Scores content across 7 classification categories (0-1 scale).
 - Configurable Thresholds: Toggle individual filters based on research requirements.
@@ -216,6 +218,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 **Thank you**
 
 ---
+
 
 
 
