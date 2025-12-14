@@ -26,6 +26,14 @@ Key highlights:
 - 🖥️ **Cross-Platform Vision**: Built for Twitter/X first, with plans to expand to LinkedIn, Facebook, and Reddit.
 - 🎨 **Clean & Intuitive Design**: A polished UI for seamless interaction.
 
+Real-time AI Analysis: Analyzes posts using Llama 3.3 70B via OpenRouter API
+Multi-dimensional Classification: Scores content across 7 classification categories (0-1 scale)
+Configurable Thresholds: Toggle individual filters based on research requirements
+Blur Mode: Option to blur instead of hide flagged content
+Visual Indicators: Clear labeling of filtered content types
+24-hour Caching: Reduces API usage with intelligent caching
+Statistics Dashboard: Track classification results and filter effectiveness
+Debug Mode: Detailed logging for troubleshooting and research analysis
 ---
 
 ## 🏗️ System Architecture
@@ -208,6 +216,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 **Thank you**
 
 ---
+
 
 
 
