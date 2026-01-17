@@ -193,9 +193,12 @@ flowchart LR
 | **KARTIK PANDEY**        |
 
 ---
-## Research Paper
+## ✍️📄 Research Paper
+
 
 Check Out the Research Paper ![GENEYE Research Paper](GENEYE_RESEARCH_PAPER.pdf) 
+
+
 ---
 
 ## 📜 License
@@ -222,6 +225,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 **Thank you**
 
 ---
+
 
 
 
