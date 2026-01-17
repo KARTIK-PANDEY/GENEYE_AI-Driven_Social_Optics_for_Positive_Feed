@@ -193,6 +193,10 @@ flowchart LR
 | **KARTIK PANDEY**        |
 
 ---
+## Research Paper
+
+Check Out the Research Paper 
+---
 
 ## 📜 License
 
@@ -218,6 +222,7 @@ Together, let’s make the internet a **healthier, more positive space!**
 **Thank you**
 
 ---
+
 
 
 
